@@ -1,0 +1,2 @@
+Model,Input Resolution,Number of Classes,Parameters (M),GMACs,Real Validation Accuracy Mean,Real Validation Macro F1 Mean,Real Test Accuracy Mean,Real Test Macro F1 Mean,Representative Seed,FP32 Checkpoint Size Mean (MiB),PyTorch Forward Mean (ms),PyTorch Forward FPS
+NANO-SDRN,224x224,3,1.163251,0.233916096,0.9417777777777778,0.9412334223753028,0.8928888888888888,0.8907010848829406,42,4.5256961186726885,11.229436902502496,89.05166026420687

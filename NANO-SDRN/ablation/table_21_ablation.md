@@ -1,0 +1,14 @@
+Table 21. Ablation and component analysis of the NANO-SDRN architecture
+
+| Configuration | Accuracy (%) | Macro-F1 (%) | Parameters (M) | GMACs | Latency (ms) | FPS |
+|---|---:|---:|---:|---:|---:|---:|
+| **NANO-SDRN (proposed)** | **89.29** | **89.07** | **1.163** | **0.234** | **11.229** | **89.052** |
+| Reference + Tri-Scale Fusion | 87.20 | 86.95 | 1.296 | 0.234 | 11.619 | 86.069 |
+| Reference without Spatial Refinement | 87.11 | 86.64 | 1.289 | 0.231 | 11.022 | 90.731 |
+| Reference without SE | 85.53 | 85.31 | 1.049 | 0.233 | 7.539 | 132.646 |
+| Reference without Hybrid Norm | 85.18 | 84.64 | 1.296 | 0.234 | 10.704 | 93.420 |
+| Reference with GAP only | 84.80 | 84.36 | 1.168 | 0.234 | 11.259 | 88.815 |
+
+**Note:** Ablation variants were derived from the same reference architecture and evaluated under identical experimental settings.
+
+The `results/` directory contains the supporting three-seed metrics, five-fold cross-validation summaries, complexity reports, representative test classification reports, and PyTorch latency samples for each configuration.

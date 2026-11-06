@@ -1,0 +1,33 @@
+{
+  "purpose": "E2E, one full real-test pass per configuration, not original PyTorch repeated GPU-only protocol",
+  "timestamp": "2026-10-29T09:43:57",
+  "seed": 42,
+  "python": "3.10.20 (main, Mar  3 2026, 09:24:47) [GCC 13.3.0]",
+  "torch": "2.14.0+cu130",
+  "cuda": "13.0",
+  "gpu": "Orin",
+  "platform": "Linux-6.8.12-1021-tegra-aarch64-with-glibc2.39",
+  "batches": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "precision": [
+    "FP32",
+    "FP16"
+  ],
+  "classes": [
+    "Tomato__Early_blight",
+    "Tomato__Late_blight",
+    "Tomato__healthy"
+  ],
+  "num_real_test": 1500,
+  "warmup": 50,
+  "timing_boundary": "time.perf_counter_ns immediately before reading/CPU preprocessing through after GPU H2D/forward/D2H + CPU softmax/argmax",
+  "gpu_only_timing": "CUDA events around model(x), separately recorded",
+  "preprocessing": "PIL RGB, Resize(256 shorter edge, BILINEAR), CenterCrop(224), float32 /255, ImageNet normalization",
+  "dtype": "FP32/FP16 model parameters and input on GPU; preprocessed input float32 on host",
+  "batch_pad": "repeat last valid image to B; exclude padded predictions from accuracy",
+  "result_scope": "E2E includes on-demand image read and preprocessing, host/device transfer, GPU compute, CPU prediction; excludes checkpoint loading, warmup and CSV writing"
+}

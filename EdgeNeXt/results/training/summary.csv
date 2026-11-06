@@ -1,0 +1,2 @@
+Model,Input Resolution,Number of Classes,Parameters (M),GMACs,Real Validation Accuracy Mean,Real Validation Macro F1 Mean,Real Test Accuracy Mean,Real Test Macro F1 Mean,Representative Seed,FP32 Checkpoint Size Mean (MiB),PyTorch Forward Mean (ms),PyTorch Forward FPS
+EdgeNeXt,224x224,3,1.158723,0.197443022,0.9642222222222222,0.9642058516946008,0.918888888888889,0.918658740549361,42,4.482405026753743,17.251820170084635,57.96489820442489

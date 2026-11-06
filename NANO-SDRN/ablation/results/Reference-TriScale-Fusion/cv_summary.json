@@ -1,0 +1,39 @@
+{
+    "splitter": "StratifiedKFold",
+    "folds": 5,
+    "max_cv_epochs": 20,
+    "fold_best_epochs": [
+        18,
+        17,
+        16,
+        18,
+        13
+    ],
+    "selected_common_epoch": 17,
+    "cv_accuracy_mean_at_selected_epoch": 0.9596666666666668,
+    "cv_accuracy_sample_std_at_selected_epoch": 0.009530652303663855,
+    "fold_accuracies_at_selected_epoch": [
+        0.9533333333333334,
+        0.9716666666666667,
+        0.9666666666666667,
+        0.9583333333333334,
+        0.9483333333333334
+    ],
+    "fold_best_accuracies_for_reference_only": [
+        0.9591666666666666,
+        0.9716666666666667,
+        0.97,
+        0.9641666666666666,
+        0.9583333333333334
+    ],
+    "fold_total_times_s": [
+        890.2121174019994,
+        781.6973080130047,
+        782.0693108579944,
+        781.5742855989956,
+        809.0677176289973
+    ],
+    "cv_total_time_s": 4046.5288787610043,
+    "cv_mean_fold_time_s": 808.9241479001982,
+    "cv_std_fold_time_s": 46.952775872928235
+}

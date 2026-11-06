@@ -1,0 +1,55 @@
+{
+  "base_dir": "/home/jetson/Desktop/dataset",
+  "train_dir": "/home/jetson/Desktop/dataset/synthetic_train",
+  "validation_dir": "/home/jetson/Desktop/dataset/real_validation",
+  "test_dir": "/home/jetson/Desktop/dataset/real_test",
+  "groups_csv": null,
+  "classes": [
+    "Tomato__Early_blight",
+    "Tomato__Late_blight",
+    "Tomato__healthy"
+  ],
+  "class_to_idx": {
+    "Tomato__Early_blight": 0,
+    "Tomato__Late_blight": 1,
+    "Tomato__healthy": 2
+  },
+  "num_classes": 3,
+  "input_resolution": [
+    224,
+    224
+  ],
+  "batch_size": 16,
+  "eval_batch_size": 16,
+  "num_workers": 4,
+  "k_folds": 5,
+  "epochs_kfold": 20,
+  "max_final_epochs": 30,
+  "early_stopping_patience": 7,
+  "early_stopping_min_delta": 0.0001,
+  "model_selection_metric": "macro_f1",
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR",
+  "final_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "representative_seed": 42,
+  "amp_training": false,
+  "allow_tf32": false,
+  "onnx_opset": 17,
+  "run_tensorrt": true,
+  "run_ablation_study": false,
+  "main_models": {
+    "NANO-SDRN": {
+      "year": "Proposed model",
+      "family": "Lightweight CNN with HDN, spatial refinement, SE and GAP+GMP; no tri-scale fusion",
+      "timm_name": null
+    }
+  },
+  "ablation_models": {},
+  "important_protocol_note": "Gradients are computed only from synthetic_train. real_validation is target-domain validation used for checkpoint/early-stopping selection. real_test is locked and is evaluated only after the validation-selected checkpoint is frozen. Do not tune on real_test."
+}

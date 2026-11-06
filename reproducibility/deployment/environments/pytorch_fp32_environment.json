@@ -1,0 +1,47 @@
+{
+  "timestamp_local": "2026-09-25 11:03:10",
+  "platform": "Linux-6.8.12-1021-tegra-aarch64-with-glibc2.39",
+  "python": "3.10.20 (main, Mar  3 2026, 09:24:47) [GCC 13.3.0]",
+  "torch": "2.14.0+cu132",
+  "torchvision": "0.29.0+cu132",
+  "sklearn": "1.7.2",
+  "cuda_reported_by_torch": "13.2",
+  "cudnn": 92400,
+  "device": "cuda:0",
+  "gpu_name": "Orin",
+  "precision": "FP32",
+  "fp32_mode": "explicit model.float(); no autocast; TF32 disabled",
+  "allow_tf32": false,
+  "representative_seed": 42,
+  "speed_batch_size": 1,
+  "warmup_runs": 50,
+  "min_timed_runs": 300,
+  "max_timed_runs": 5000,
+  "min_benchmark_seconds": 5.0,
+  "pipeline_runs": 100,
+  "real_test_root": "/home/jetson/Desktop/dataset/real_test",
+  "real_test_images": 1500,
+  "class_names": [
+    "Tomato__Early_blight",
+    "Tomato__Late_blight",
+    "Tomato__healthy"
+  ],
+  "class_to_idx": {
+    "Tomato__Early_blight": 0,
+    "Tomato__Late_blight": 1,
+    "Tomato__healthy": 2
+  },
+  "eval_transform": "Resize(256) -> CenterCrop(224) -> ToTensor() -> ImageNet Normalize",
+  "baseline_source": "/home/jetson/Desktop/jetson_lightweight_academic_benchmark.py",
+  "nano_source": "/home/jetson/Desktop/nano_sdrn_v/nano_sdrn_v11_detailed_ablation_study_fair.py",
+  "models": [
+    "MobileNetV4",
+    "RepViT",
+    "SHViT",
+    "StarNet",
+    "FastViT",
+    "GhostNetV2",
+    "EdgeNeXt",
+    "NANO-SDRN"
+  ]
+}

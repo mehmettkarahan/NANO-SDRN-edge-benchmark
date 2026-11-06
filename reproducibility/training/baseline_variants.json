@@ -1,0 +1,13 @@
+{
+  "pretrained": false,
+  "num_classes": 3,
+  "models": {
+    "EdgeNeXt": "edgenext_xx_small",
+    "FastViT": "fastvit_t8",
+    "GhostNetV2": "ghostnetv2_100",
+    "MobileNetV4": "mobilenetv4_conv_small",
+    "RepViT": "repvit_m0_9",
+    "SHViT": "shvit_s1",
+    "StarNet": "starnet_s1"
+  }
+}

@@ -1,0 +1,7 @@
+class,phash_distance,split_a,file_a,phash_a,split_b,file_b,phash_b
+Tomato__healthy,0,real_valid,real_valid\Tomato__healthy\068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG,8cf3f6ca1a0dc13c,real_test,real_test\Tomato__healthy\34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG,8cf3f6ca1a0dc13c
+Tomato__Late_blight,4,real_valid,real_valid\Tomato__Late_blight\2159d0f7-09ef-46ad-ad49-749e8ce1becc___GHLB2 Leaf 8836.JPG,8ef171cf17384cc1,real_test,real_test\Tomato__Late_blight\7f533ee8-1d72-486e-b2a6-b5ef2ac7cc88___GHLB2 Leaf 8837.JPG,8ef970cf07384ec1
+Tomato__healthy,4,real_valid,real_valid\Tomato__healthy\240a9583-9e6a-446d-8850-62bc23312ce9___GH_HL Leaf 312.4.JPG,cee939846493b3ca,real_test,real_test\Tomato__healthy\0b330273-890c-4995-af72-cba070fc0061___GH_HL Leaf 312.JPG,cae93186649bb3ca
+Tomato__healthy,4,real_valid,real_valid\Tomato__healthy\5300bf32-485d-4978-9099-3175fb666da8___GH_HL Leaf 475.JPG,daa261c46fda6439,real_test,real_test\Tomato__healthy\2bd08574-9555-42a5-93b1-7fab8f9f8786___GH_HL Leaf 475.2.JPG,daa321c42fda64b9
+Tomato__healthy,4,real_valid,real_valid\Tomato__healthy\71967e69-6356-49c1-81ce-624792b4d964___GH_HL Leaf 315.1.JPG,dba421d6229bcd99,real_test,real_test\Tomato__healthy\9b5626b0-ea1d-45d0-bc41-c898f7253a75___GH_HL Leaf 315.2.JPG,daad21d6229bc599
+Tomato__healthy,4,real_valid,real_valid\Tomato__healthy\84991306-21f6-41fb-a723-0c7ba1dac9d3___GH_HL Leaf 199.JPG,9fe664853b8cd039,real_test,real_test\Tomato__healthy\0c4b06d5-4053-44fc-99b6-504934fdd3a9___GH_HL Leaf 199.1.JPG,dfe264853f8cc039

@@ -1,0 +1,289 @@
+platform,backend,model,precision,batch_size,accuracy_percent,macro_f1_percent,e2e_ms_per_image,nominal_throughput_images_s,seed,cpu_threads,measurement_scope,source
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,FP32,1,91.267,91.229,19.604,51.0099,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,FP32,4,91.267,91.229,17.1769,58.2178,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,FP32,8,91.267,91.229,16.5975,60.2499,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,FP32,16,91.267,91.229,16.2125,61.6807,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,FP32,1,72,70.259,33.7267,29.6501,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,FP32,4,72,70.259,29.9799,33.3557,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,FP32,8,72,70.259,29.9244,33.4176,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,FP32,16,72,70.259,30.0384,33.2907,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,FP32,1,85.467,85.036,19.3299,51.7333,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,FP32,4,85.467,85.036,15.1638,65.9465,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,FP32,8,85.467,85.036,14.6336,68.336,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,FP32,16,85.467,85.036,14.6395,68.3085,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,FP32,1,82.733,82.343,10.6989,93.4673,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,FP32,4,82.733,82.343,8.7478,114.3138,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,FP32,8,82.733,82.343,8.6046,116.217,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,FP32,16,82.733,82.343,8.4891,117.7986,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,FP32,1,87.4,87.092,13.12,76.2197,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,FP32,4,87.4,87.092,11.3131,88.3932,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,FP32,8,87.4,87.092,11.1388,89.7759,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,FP32,16,87.4,87.092,11.2177,89.1451,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,FP32,1,79.733,78.834,38.6472,25.8751,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,FP32,4,79.733,78.834,31.5133,31.7326,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,FP32,8,79.733,78.834,31.3071,31.9417,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,FP32,16,79.733,78.834,31.4918,31.7543,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,FP32,1,83.667,82.964,12.4889,80.0712,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,FP32,4,83.667,82.964,9.7057,103.0321,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,FP32,8,83.667,82.964,9.2115,108.5597,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,FP32,16,83.667,82.964,8.9147,112.1749,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,FP32,1,85.533,85.277,22.0378,45.3766,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,FP32,4,85.533,85.277,18.3824,54.3999,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,FP32,8,85.533,85.277,18.2411,54.8214,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,FP32,16,85.533,85.277,18.2748,54.7201,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,1,91.067,91.025,32.9568,30.3427,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,4,91.067,91.025,28.3294,35.2991,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,8,91.067,91.025,27.3952,36.5027,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,16,91.067,91.025,27.0085,37.0254,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,1,70.2,68.39,71.1849,14.0479,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,4,70.2,68.39,63.4766,15.7538,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,8,70.2,68.39,62.3038,16.0504,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,16,70.2,68.39,61.7924,16.1832,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,1,85.8,85.397,19.1815,52.1337,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,4,85.8,85.397,15.3976,64.9452,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,8,85.8,85.397,14.3798,69.5418,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,16,85.8,85.397,14.4907,69.0099,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,1,83.267,82.903,5.4242,184.3599,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,4,83.267,82.903,4.8894,204.5232,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,8,83.267,82.903,4.6604,214.5733,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,16,83.267,82.903,4.5241,221.0391,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,1,88.4,88.185,13.7087,72.9466,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,4,88.4,88.185,11.3389,88.1919,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,8,88.4,88.185,11.0721,90.3171,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,16,88.4,88.185,10.8023,92.5732,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,1,80.867,80.37,55.7347,17.9421,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,4,80.867,80.37,45.9586,21.7587,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,8,80.867,80.37,43.6475,22.9108,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,16,80.867,80.37,43.2134,23.141,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,1,73.533,73.313,8.601,116.2653,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,4,73.533,73.313,6.6321,150.7807,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,8,73.533,73.313,5.9559,167.9016,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,16,73.533,73.313,5.6705,176.3512,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,1,36.467,22.946,10.2455,97.6035,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,4,36.467,22.946,8.6159,116.0644,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,8,36.467,22.946,8.186,122.1595,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,16,36.467,22.946,7.9944,125.0874,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP16,1,91.26666667,91.22864744,21.44134609,46.63886287,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP16,4,91.26666667,91.22864744,7.796854955,128.2568428,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP16,8,91.26666667,91.22864744,5.522815468,181.0670673,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP16,16,91.26666667,91.22864744,4.420833979,226.2016635,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP16,1,72,70.25858531,32.3879216,30.87570769,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP16,4,72,70.25858531,10.26611063,97.40787291,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP16,8,72,70.25858531,6.494079574,153.98641,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP16,16,72,70.25858531,5.966241128,167.6097192,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP16,1,85.46666667,85.03611744,49.08152875,20.37426351,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP16,4,85.46666667,85.03611744,14.49908698,68.96986008,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP16,8,85.46666667,85.03611744,8.539505872,117.1027943,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP16,16,85.46666667,85.03611744,5.577173298,179.3023,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP16,1,82.8,82.4128456,20.41129005,48.99249374,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP16,4,82.8,82.4128456,7.306792,136.8589663,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP16,8,82.8,82.4128456,4.974183064,201.0380372,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP16,16,82.8,82.4128456,3.785480404,264.1672637,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP16,1,87.4,87.09228173,15.8222617,63.20208951,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP16,4,87.4,87.09228173,6.251433387,159.9633137,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP16,8,87.4,87.09228173,4.463533511,224.0377489,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP16,16,87.4,87.09228173,3.688318191,271.1262825,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP16,1,79.73333333,78.83378655,45.15619674,22.14535484,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP16,4,79.73333333,78.82871329,13.56484469,73.71997414,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP16,8,79.73333333,78.83378655,8.156637915,122.5995331,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP16,16,79.73333333,78.83378655,5.345970128,187.0567878,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP16,1,83.6,82.8846403,37.32650786,26.79061228,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP16,4,83.6,82.8846403,11.65079889,85.83102407,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP16,8,83.6,82.8846403,7.093793915,140.9682903,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP16,16,83.6,82.8846403,4.861136319,205.713219,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP16,1,85.53333333,85.27697836,23.86311765,41.90567278,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP16,4,85.53333333,85.27697836,8.243268181,121.3111084,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP16,8,85.53333333,85.27697836,5.40214166,185.1117692,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP16,16,85.53333333,85.27697836,5.016900745,199.3262476,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP32,1,91.26666667,91.22864744,20.97729212,47.67059516,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP32,4,91.26666667,91.22864744,7.68046112,130.2005159,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP32,8,91.26666667,91.22864744,5.518528213,181.2077354,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,EdgeNeXt,FP32,16,91.26666667,91.22864744,4.549515489,219.8036258,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP32,1,72,70.25858531,28.9393175,34.55506509,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP32,4,72,70.25858531,9.406750443,106.3066365,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP32,8,72,70.25858531,7.690004809,130.0389304,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,FastViT,FP32,16,72,70.25858531,7.436969021,134.4633811,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP32,1,85.46666667,85.03611744,42.37244425,23.60024346,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP32,4,85.46666667,85.03611744,12.807425,78.07970765,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP32,8,85.46666667,85.03611744,7.660402553,130.5414426,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,GhostNetV2,FP32,16,85.46666667,85.03611744,6.031120723,165.8066628,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP32,1,82.73333333,82.3429688,17.28811296,57.84321298,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP32,4,82.73333333,82.3429688,6.910888149,144.699202,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP32,8,82.73333333,82.3429688,4.449589511,224.7398322,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,MobileNetV4,FP32,16,82.73333333,82.3429688,3.932412766,254.2968044,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP32,1,87.4,87.09228173,14.74727287,67.80914739,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP32,4,87.4,87.09228173,5.826281515,171.6360594,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP32,8,87.4,87.09228173,4.361296021,229.2896412,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,NANO-SDRN,FP32,16,87.4,87.09228173,4.173649723,239.5984489,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP32,1,79.73333333,78.83378655,38.18238679,26.19008616,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP32,4,79.73333333,78.83378655,11.88100796,84.16794295,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP32,8,79.73333333,78.83378655,7.455974809,134.1206248,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,RepViT,FP32,16,79.73333333,78.83378655,7.125939234,140.3323783,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP32,1,83.66666667,82.96358577,32.97230153,30.32848645,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP32,4,83.66666667,82.96358577,10.39676657,96.18375032,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP32,8,83.66666667,82.96358577,6.517561617,153.4316143,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,SHViT,FP32,16,83.66666667,82.96358577,4.456413766,224.3956806,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP32,1,85.53333333,85.27697836,21.55014643,46.40339699,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP32,4,85.53333333,85.27697836,7.531447339,132.7766039,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP32,8,85.53333333,85.27697836,5.77423266,173.1831845,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,PyTorch,StarNet,FP32,16,85.53333333,85.27697836,5.583966638,179.0841645,42,,pipeline_e2e,PyTorch E2E benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP16,1,91.267,91.229,4.8838,204.7598,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP16,4,91.267,91.229,3.7585,266.0669,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP16,8,91.267,91.229,3.3943,294.6138,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP16,16,91.267,91.229,3.2731,305.5233,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP16,1,72,70.259,19.0376,52.5277,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP16,4,72,70.259,8.0275,124.5719,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP16,8,72,70.259,6.2533,159.916,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP16,16,72,70.259,5.3254,187.7807,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP16,1,85.467,85.036,6.8458,146.0747,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP16,4,85.467,85.036,4.2655,234.4415,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP16,8,85.467,85.036,3.8555,259.3704,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP16,16,85.467,85.036,3.6562,273.5076,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP16,1,82.733,82.343,4.2392,235.8926,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP16,4,82.733,82.343,3.3578,297.8136,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP16,8,82.733,82.343,3.1017,322.4018,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP16,16,82.733,82.343,2.9886,334.6056,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP16,1,87.4,87.092,4.4048,227.0243,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP16,4,87.4,87.092,3.5678,280.2819,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP16,8,87.4,87.092,3.3286,300.4252,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP16,16,87.4,87.092,3.1989,312.6115,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP16,1,79.733,78.834,6.087,164.2853,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP16,4,79.733,78.834,4.4955,222.4454,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP16,8,79.733,78.834,4.1339,241.9035,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP16,16,79.733,78.834,3.9339,254.2002,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP16,1,83.667,82.964,5.7994,172.4313,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP16,4,83.667,82.964,3.8155,262.0914,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP16,8,83.667,82.964,3.271,305.7186,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP16,16,83.667,82.964,3.095,323.1017,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP16,1,85.533,85.277,4.9696,201.2237,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP16,4,85.533,85.277,3.8534,259.5113,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP16,8,85.533,85.277,3.5875,278.7463,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP16,16,85.533,85.277,3.3966,294.4107,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP32,1,91.267,91.229,5.5305,180.8169,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP32,4,91.267,91.229,4.5618,219.2137,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP32,8,91.267,91.229,4.342,230.3064,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,FP32,16,91.267,91.229,4.0094,249.4146,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP32,1,72,70.259,21.538,46.4296,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP32,4,72,70.259,9.5955,104.2159,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP32,8,72,70.259,7.5603,132.2694,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,FP32,16,72,70.259,6.6863,149.56,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP32,1,85.467,85.036,7.8498,127.3918,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP32,4,85.467,85.036,5.4698,182.8228,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP32,8,85.467,85.036,4.9025,203.9795,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,FP32,16,85.467,85.036,4.5638,219.1179,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP32,1,82.733,82.343,4.7768,209.3468,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP32,4,82.733,82.343,5.1425,194.4589,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP32,8,82.733,82.343,4.3165,231.669,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,FP32,16,82.733,82.343,3.7487,266.7578,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP32,1,87.4,87.092,4.7639,209.9134,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP32,4,87.4,87.092,5.0173,199.3091,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP32,8,87.4,87.092,4.3765,228.4908,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,FP32,16,87.4,87.092,3.9902,250.6163,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP32,1,79.733,78.834,8.721,114.6653,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP32,4,79.733,78.834,7.7588,128.8863,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP32,8,79.733,78.834,6.5609,152.4184,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,FP32,16,79.733,78.834,6.0623,164.9543,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP32,1,83.667,82.964,8.1182,123.1793,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP32,4,83.667,82.964,4.6728,214.0043,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP32,8,83.667,82.964,4.259,234.7966,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,FP32,16,83.667,82.964,3.8865,257.3018,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP32,1,85.533,85.277,7.2522,137.8886,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP32,4,85.533,85.277,5.6007,178.549,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP32,8,85.533,85.277,4.9251,203.0399,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,FP32,16,85.533,85.277,4.4811,223.1612,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,INT8-PTQ,1,91.333,91.296,6.0476,165.3551,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,INT8-PTQ,4,91.333,91.296,4.5552,219.5316,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,INT8-PTQ,8,91.333,91.296,4.4792,223.2524,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,EdgeNeXt,INT8-PTQ,16,91.333,91.296,4.1446,241.2776,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,INT8-PTQ,1,72.2,70.396,20.9382,47.7597,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,INT8-PTQ,4,72.2,70.396,9.073,110.2175,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,INT8-PTQ,8,72.2,70.396,7.2341,138.2345,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,FastViT,INT8-PTQ,16,72.2,70.396,6.2798,159.2403,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,INT8-PTQ,1,85.733,85.341,7.0054,142.7468,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,INT8-PTQ,4,85.733,85.341,4.5738,218.638,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,INT8-PTQ,8,85.733,85.341,4.511,221.6815,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,GhostNetV2,INT8-PTQ,16,85.733,85.341,4.1413,241.4696,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,INT8-PTQ,1,82.467,82.05,4.6908,213.1847,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,INT8-PTQ,4,82.467,82.05,3.7257,268.4076,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,INT8-PTQ,8,82.467,82.05,3.2975,303.2581,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,MobileNetV4,INT8-PTQ,16,82.467,82.05,3.1956,312.9282,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,INT8-PTQ,1,87.933,87.669,4.6545,214.8474,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,INT8-PTQ,4,87.933,87.669,4.669,214.1783,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,INT8-PTQ,8,87.933,87.669,4.1236,242.5088,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,NANO-SDRN,INT8-PTQ,16,87.933,87.669,3.8053,262.7882,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,INT8-PTQ,1,81.267,80.409,7.7623,128.8278,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,INT8-PTQ,4,81.267,80.409,5.0498,198.0292,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,INT8-PTQ,8,81.267,80.409,4.5761,218.525,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,RepViT,INT8-PTQ,16,81.267,80.409,4.4538,224.5295,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,INT8-PTQ,1,78.8,78.468,6.1766,161.902,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,INT8-PTQ,4,78.8,78.468,4.4406,225.1957,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,INT8-PTQ,8,78.8,78.468,4.1634,240.1891,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,SHViT,INT8-PTQ,16,78.8,78.468,3.7041,269.9706,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,INT8-PTQ,1,75.4,75.335,5.4321,184.0901,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,INT8-PTQ,4,75.4,75.335,4.4976,222.3414,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,INT8-PTQ,8,75.4,75.335,4.4373,225.3622,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Jetson Orin Nano Super GPU,TensorRT GPU,StarNet,INT8-PTQ,16,75.4,75.335,4.0718,245.5911,42,,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,FP32,1,91.267,91.229,17.3207,57.7342,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,FP32,4,91.267,91.229,17.4888,57.1793,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,FP32,8,91.267,91.229,18.3258,54.5678,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,FP32,16,91.267,91.229,19.368,51.6316,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,FP32,1,72,70.259,36.9572,27.0583,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,FP32,4,72,70.259,39.8896,25.0692,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,FP32,8,72,70.259,41.0262,24.3747,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,FP32,16,72,70.259,41.4544,24.1229,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,FP32,1,85.467,85.036,23.3905,42.7524,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,FP32,4,85.467,85.036,24.509,40.8013,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,FP32,8,85.467,85.036,25.4773,39.2507,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,FP32,16,85.467,85.036,26.0402,38.4021,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,FP32,1,82.733,82.343,10.6889,93.5548,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,FP32,4,82.733,82.343,9.6889,103.2108,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,FP32,8,82.733,82.343,9.8533,101.4884,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,FP32,16,82.733,82.343,9.9288,100.7168,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,FP32,1,87.4,87.092,17.3016,57.798,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,FP32,4,87.4,87.092,21.1724,47.2313,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,FP32,8,87.4,87.092,21.7674,45.9403,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,FP32,16,87.4,87.092,22.1081,45.2323,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,FP32,1,79.733,78.834,35.1501,28.4494,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,FP32,4,79.733,78.834,38.0637,26.2717,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,FP32,8,79.733,78.834,39.9378,25.0389,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,FP32,16,79.733,78.834,40.4629,24.714,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,FP32,1,83.667,82.964,12.071,82.8429,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,FP32,4,83.667,82.964,9.3064,107.4531,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,FP32,8,83.667,82.964,9.0429,110.5842,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,FP32,16,83.667,82.964,9.022,110.84,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,FP32,1,85.533,85.277,23.2629,42.987,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,FP32,4,85.533,85.277,25.0528,39.9157,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,FP32,8,85.533,85.277,25.2,39.6826,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,FP32,16,85.533,85.277,25.2105,39.6659,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,1,91.067,91.025,28.1126,35.5713,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,4,91.067,91.025,27.1178,36.8761,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,8,91.067,91.025,27.2915,36.6414,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,EdgeNeXt,INT8-PTQ,16,91.067,91.025,27.7885,35.9861,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,1,70.2,68.39,75.9477,13.1669,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,4,70.2,68.39,73.7913,13.5517,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,8,70.2,68.39,73.6227,13.5828,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,FastViT,INT8-PTQ,16,70.2,68.39,73.6584,13.5762,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,1,85.8,85.397,16.8347,59.4012,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,4,85.8,85.397,15.6435,63.9241,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,8,85.8,85.397,15.8068,63.2638,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,GhostNetV2,INT8-PTQ,16,85.8,85.397,15.9776,62.5876,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,1,83.267,82.903,5.5064,181.6075,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,4,83.267,82.903,4.5796,218.3589,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,8,83.267,82.903,4.3514,229.8103,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,MobileNetV4,INT8-PTQ,16,83.267,82.903,4.2193,237.0089,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,1,88.4,88.185,17.476,57.2212,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,4,88.4,88.185,18.4624,54.164,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,8,88.4,88.185,18.7765,53.258,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,NANO-SDRN,INT8-PTQ,16,88.4,88.185,19.2888,51.8436,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,1,80.867,80.37,49.4608,20.218,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,4,80.867,80.37,46.0555,21.7129,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,8,80.867,80.37,45.0877,22.179,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,RepViT,INT8-PTQ,16,80.867,80.37,45.362,22.0449,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,1,73.533,73.313,7.882,126.871,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,4,73.533,73.313,5.6981,175.4973,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,8,73.533,73.313,5.192,192.6031,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,SHViT,INT8-PTQ,16,73.533,73.313,4.9061,203.8283,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,1,36.467,22.946,9.6235,103.9128,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,4,36.467,22.946,8.7436,114.37,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,8,36.467,22.946,8.5842,116.4926,42,4,pipeline_e2e,TensorRT/ORT device benchmark
+Raspberry Pi 5 CPU,ONNX Runtime CPU,StarNet,INT8-PTQ,16,36.467,22.946,8.5587,116.8396,42,4,pipeline_e2e,TensorRT/ORT device benchmark

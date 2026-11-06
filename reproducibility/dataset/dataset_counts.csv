@@ -1,0 +1,10 @@
+split,class,image_count
+real_test,Tomato__Early_blight,500
+real_test,Tomato__Late_blight,500
+real_test,Tomato__healthy,500
+real_valid,Tomato__Early_blight,500
+real_valid,Tomato__Late_blight,500
+real_valid,Tomato__healthy,500
+synthetic_train,Tomato__Early_blight,2000
+synthetic_train,Tomato__Late_blight,2000
+synthetic_train,Tomato__healthy,2000

@@ -1,0 +1,60 @@
+{
+  "timestamp_local": "2026-09-20T12:15:15",
+  "device": "NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super | NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super",
+  "hostname": "localhost.localdomain",
+  "platform": "Linux-6.8.12-1021-tegra-aarch64-with-glibc2.39",
+  "machine": "aarch64",
+  "python": "3.12.3",
+  "tensorrt": "10.16.2.10",
+  "cuda_runtime_library": "libcudart.so.13",
+  "precision": "FP16",
+  "batch_sizes": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "batching": "TRUE tensor batching; one dynamic TensorRT profile per model; no sequential pseudo-batching",
+  "warmup_batches": 50,
+  "model_count": 8,
+  "metadata_csv": null,
+  "workspace_gib": 2.0,
+  "nvpmodel_query": "MAXN_SUPER (mode 2)",
+  "jetson_clocks_show": "",
+  "models_root": "/home/jetson/Desktop/models_9_dynamic",
+  "real_test_root": "/home/jetson/Desktop/dataset/real_test",
+  "real_test_total": 1500,
+  "real_test_counts": {
+    "Tomato__Early_blight": 500,
+    "Tomato__Late_blight": 500,
+    "Tomato__healthy": 500
+  },
+  "class_to_idx": {
+    "Tomato__Early_blight": 0,
+    "Tomato__Late_blight": 1,
+    "Tomato__healthy": 2
+  },
+  "final_partial_batch_policy": "repeat last valid image to requested tensor batch; padded outputs discarded",
+  "eval_transform": {
+    "resize_short_edge": 256,
+    "resize_semantics": "torchvision: int(size*long/short)",
+    "interpolation": "PIL bilinear",
+    "center_crop": [
+      224,
+      224
+    ],
+    "rgb": true,
+    "scale": "uint8 / 255.0",
+    "normalize_mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "normalize_std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "initial_temperature_c": 61.375
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.10.20 (main, Mar  3 2026, 09:24:47) [GCC 13.3.0]",
+  "platform": "Linux-6.8.12-1021-tegra-aarch64-with-glibc2.39",
+  "torch": "2.14.0+cu130",
+  "torchvision": "0.29.0+cu130",
+  "timm": "1.0.29",
+  "sklearn": "1.7.2",
+  "cuda_runtime_reported_by_torch": "13.0",
+  "cudnn": 92400,
+  "device": "cuda:0",
+  "gpu_name": "Orin",
+  "jetson_model": "NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super",
+  "jetpack": {
+    "nv_tegra_release": "# R39 (release), REVISION: 2.1, GCID: 46758480, BOARD: generic, EABI: aarch64, DATE: Fri Aug  7 05:54:22 AM UTC 2026\n# KERNEL_VARIANT: oot\nTARGET_USERSPACE_LIB_DIR=nvidia\nTARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia",
+    "nvidia_jetpack_package": "7.2.1-b49"
+  },
+  "tensorrt": null,
+  "nvpmodel": "MAXN_SUPER (mode 2)",
+  "trtexec_path": "/usr/bin/trtexec",
+  "allow_tf32": false,
+  "amp_training": false
+}

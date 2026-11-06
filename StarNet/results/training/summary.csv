@@ -1,0 +1,2 @@
+Model,Input Resolution,Number of Classes,Parameters (M),GMACs,Real Validation Accuracy Mean,Real Validation Macro F1 Mean,Real Test Accuracy Mean,Real Test Macro F1 Mean,Representative Seed,FP32 Checkpoint Size Mean (MiB),PyTorch Forward Mean (ms),PyTorch Forward FPS
+StarNet,224x224,3,2.676747,0.427139648,0.9288888888888888,0.9280753802528028,0.8648888888888889,0.8622191420904405,42,10.360011100769045,17.158877607981363,58.27887014794343

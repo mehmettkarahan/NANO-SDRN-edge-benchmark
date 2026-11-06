@@ -1,0 +1,2 @@
+Model,Input Resolution,Number of Classes,Parameters (M),GMACs,Real Validation Accuracy Mean,Real Validation Macro F1 Mean,Real Test Accuracy Mean,Real Test Macro F1 Mean,Representative Seed,FP32 Checkpoint Size Mean (MiB),PyTorch Forward Mean (ms),PyTorch Forward FPS
+GhostNetV2,224x224,3,4.879751,0.183995584,0.9157777777777776,0.9146612235476757,0.8602222222222222,0.8562041730929395,42,19.147754351298016,38.39341948191325,26.04613013100044

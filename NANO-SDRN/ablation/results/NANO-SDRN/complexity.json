@@ -1,0 +1,10 @@
+{
+    "Total Parameters": 1163251,
+    "Trainable Parameters": 1163251,
+    "Parameters (M)": 1.163251,
+    "Theoretical FP32 Parameter Memory (MiB)": 4.437450408935547,
+    "GMACs (THOP)": 0.233916096,
+    "GFLOPs (2 FLOPs/MAC)": 0.467832192,
+    "Complexity Measurement Status": "OK",
+    "Complexity Measurement Time (s)": 0.44802895600150805
+}

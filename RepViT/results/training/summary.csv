@@ -1,0 +1,2 @@
+Model,Input Resolution,Number of Classes,Parameters (M),GMACs,Real Validation Accuracy Mean,Real Validation Macro F1 Mean,Real Test Accuracy Mean,Real Test Macro F1 Mean,Representative Seed,FP32 Checkpoint Size Mean (MiB),PyTorch Forward Mean (ms),PyTorch Forward FPS
+RepViT,224x224,3,4.721638,0.84628512,0.8966666666666668,0.8947749382871898,0.8368888888888888,0.8317171620645786,42,18.470672607421875,34.060973230997725,29.35911411626765

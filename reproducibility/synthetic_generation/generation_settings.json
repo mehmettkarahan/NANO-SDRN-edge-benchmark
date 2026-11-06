@@ -1,0 +1,26 @@
+{
+  "pipeline": "StableDiffusionImg2ImgPipeline",
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "scheduler": "DPMSolverMultistepScheduler",
+  "torch_dtype": "float16",
+  "source_pool": "real_valid",
+  "output_split": "synthetic_train",
+  "classes": [
+    "Tomato__healthy",
+    "Tomato__Early_blight",
+    "Tomato__Late_blight"
+  ],
+  "images_per_class": 2000,
+  "input_resize": [512, 512],
+  "strength": 0.65,
+  "guidance_scale": 8.0,
+  "num_inference_steps": 25,
+  "negative_prompt": "blurry, low resolution, cartoon, painting, artificial, fake, watermark, out of focus, unnatural colors, deformed anatomy",
+  "prompts": {
+    "Tomato__healthy": "A highly detailed, 4k macro photo of a healthy green tomato leaf, sharp focus, realistic organic texture, natural greenhouse lighting",
+    "Tomato__Early_blight": "A highly detailed, 4k macro photo of a tomato leaf infected with early blight, showing sharp brown concentric spots, realistic dead plant tissue",
+    "Tomato__Late_blight": "A highly detailed, 4k macro photo of a tomato leaf infected with late blight, showing realistic dark water-soaked lesions, wilting plant tissue"
+  },
+  "diffusion_seed": null,
+  "seed_note": "The archived original generation script does not set an explicit torch.Generator or diffusion RNG seed. Exact per-image diffusion seeds are therefore unavailable and are not reconstructed retrospectively."
+}

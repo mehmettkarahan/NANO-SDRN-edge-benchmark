@@ -1,0 +1,4 @@
+class,precision_mean_percent,precision_sd,recall_mean_percent,recall_sd,f1_mean_percent,f1_sd,support_per_seed
+Early blight,91.23,2.35,78.33,5.19,84.21,2.79,500
+Late blight,87.09,2.96,89.87,1.86,88.43,1.68,500
+Healthy,89.99,2.26,99.67,0.23,94.57,1.31,500
