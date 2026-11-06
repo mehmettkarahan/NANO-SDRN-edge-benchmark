@@ -57,4 +57,4 @@ For exact experimental limitations and software environments, see [`REPRODUCIBIL
 
 ## Scope of archived results
 
-Only classification quality (accuracy, macro-F1 and related classification metrics), model complexity (parameters and GMACs), measured inference latency/nominal throughput, on-disk model/engine size, ablation analyses and nine-condition TOPSIS are reported. The recorded results remain those of the original experiments; excluded columns were not substituted with newly estimated values.
+Only classification quality (accuracy, macro-F1 and related classification metrics), model complexity (parameters and GMACs), measured inference latency/nominal throughput, on-disk model/engine size, ablation analyses and nine-condition TOPSIS are reported.
